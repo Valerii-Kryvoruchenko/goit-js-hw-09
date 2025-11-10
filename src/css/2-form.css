@@ -1,0 +1,83 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #2e2f42;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 24px;
+}
+
+.feedback-form {
+    margin: 0 auto;
+    width: 408px;
+    min-height: 296px;
+    padding: 24px;
+    border: 5px #2e2f42;
+}
+
+.form-wrapper {
+    border: 1px solid #808080;
+    width: 100%;
+    padding: 24px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+.feedback-form label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #2e2f42;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+    max-width: 100%;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2e2f42;
+    padding: 8px 16px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    outline: none;
+    resize: none;
+    transition: border-color 250ms ease;
+}
+
+.feedback-form input:hover,
+.feedback-form textarea:hover {
+    border-color: #000000;
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+    border-color: #4e75ff;
+}
+
+.feedback-form button {
+    width: 95px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4e75ff;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 250ms ease;
+}
+
+.feedback-form button:hover {
+    background-color: #6c8cff;
+}
